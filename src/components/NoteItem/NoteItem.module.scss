@@ -1,0 +1,33 @@
+.note-list__item {
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	width: 100%;
+	height: min-content;
+	padding: 1rem;
+	background-color: var(--bg-color);
+	border-radius: 0.5rem;
+	border: 1px solid var(--border-color);
+	color: white;
+
+	&:hover {
+		background-color: var(--primary-color);
+		color: var(--bg-color);
+		cursor: pointer;
+		font-weight: 600;
+	}
+}
+
+.archived {
+	background-color: var(--border-color);
+	color: gray;
+
+	&:hover &__badge {
+		color: rgb(27, 67, 68);
+	}
+
+	&__badge {
+		font-size: 0.75rem;
+		color: rgba(255, 255, 255, 0.5);
+	}
+}
