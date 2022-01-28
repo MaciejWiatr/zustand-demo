@@ -9,6 +9,8 @@
 	border-radius: 0.5rem;
 	border: 1px solid var(--border-color);
 	color: white;
+	word-break: break-word;
+	overflow-x: hidden;
 
 	&:hover {
 		background-color: var(--primary-color);
