@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./Navbar.module.scss";
 import { FcIdea } from "react-icons/fc";
+import NavSearch from "../NavSearch";
 
 const Navbar = () => {
 	return (
@@ -9,12 +10,7 @@ const Navbar = () => {
 				<FcIdea />
 				Keep Clone
 			</h1>
-			<div className={styles["search-container"]}>
-				<input
-					placeholder="Wyszukaj notatkę"
-					className={styles["search-input"]}
-				/>
-			</div>
+			<NavSearch />
 		</nav>
 	);
 };
