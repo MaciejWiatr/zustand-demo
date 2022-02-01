@@ -5,7 +5,7 @@ import styles from "./NotesList.module.scss";
 const NotesList = () => {
 	return (
 		<div className={styles["note-list__container"]}>
-			<NoteItem>Test długi taki bardzo długi lol jaki długi</NoteItem>
+			<NoteItem>Testowa notatka</NoteItem>
 		</div>
 	);
 };
